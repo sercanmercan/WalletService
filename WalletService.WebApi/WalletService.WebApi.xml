@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WalletService.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:WalletService.WebApi.Controllers.TransactionController.WithdrawTransaction(WalletService.Domain.AggregateModels.Transactions.RequestWithdrawTransactionDto)">
+            <summary>
+            Withdraw Transaction
+            </summary>
+            <param name="requestWalletTransactionDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WalletService.WebApi.Controllers.TransactionController.getAllTransaction(System.Int32)">
+            <summary>
+            Get All Transaction By Sender UserId
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WalletService.WebApi.Controllers.TransactionController.DepositTransaction(WalletService.Domain.AggregateModels.Transactions.RequestDepositTransactionDto)">
+            <summary>
+            Deposit Transaction
+            </summary>
+            <param name="requestDepositTransactionDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WalletService.WebApi.Controllers.UserController.GetUser">
+            <summary>
+            Get All Users
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WalletService.WebApi.Controllers.UserController.GetUser(System.Int32)">
+            <summary>
+            Get User By UserId
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WalletService.WebApi.Controllers.UserController.CreateUser(WalletService.Domain.AggregateModels.Users.Users)">
+            <summary>
+            Create User
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WalletService.WebApi.Controllers.UserController.UpdateUser(WalletService.Domain.AggregateModels.Users.Users)">
+            <summary>
+            Update User
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WalletService.WebApi.Controllers.UserController.DeleteUser(System.Int32)">
+            <summary>
+            Delete User By UserId
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:WalletService.WebApi.Controllers.WalletController.GetWallet(System.Int32)">
+            <summary>
+            Get Wallet By WalletId
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WalletService.WebApi.Controllers.WalletController.CreateWallet(WalletService.Domain.AggregateModels.Wallet.Wallet)">
+            <summary>
+            Create Wallet
+            </summary>
+            <param name="wallet"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WalletService.WebApi.Controllers.WalletController.UpdateWallet(WalletService.Domain.AggregateModels.Wallet.Wallet)">
+            <summary>
+            Update Wallet
+            </summary>
+            <param name="wallet"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WalletService.WebApi.Controllers.WalletController.DeleteWallet(System.Int32)">
+            <summary>
+            Delete Wallet By WalletId
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:WalletService.WebApi.Controllers.WalletController.GetBalance(System.Int32)">
+            <summary>
+            Get Balance By WalletId
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

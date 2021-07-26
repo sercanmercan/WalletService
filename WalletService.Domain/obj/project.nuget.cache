@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cyLpIE5mR/WOGJGaxF86kM1YE5S9wmSQJQNsrHyGPCpEETGpTOfsDmRUY30fLmQUhxd0WdmxfIZzdr+6H9AnEg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\info\\source\\repos\\WalletService2\\WalletService\\WalletService.Domain\\WalletService.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\info\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
